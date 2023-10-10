@@ -1,5 +1,6 @@
 var body = document.getElementsByTagName('body')[0];
+var btn = document.getElementById('btn');
 
-console.log(body);
-
-// body.style.backgroundColor = 
+btn.addEventListener("click", () => {
+    body.classList.toggle("chBg")
+});

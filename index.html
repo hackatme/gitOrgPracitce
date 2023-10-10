@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gitOrgPractice</title>
+    <style>
+        .chBg {
+            background-color: blueviolet;
+        }
+
+        .container {
+            /* background-color: rgb(201, 185, 185); */
+            padding: 1rem;
+            position: absolute;
+            bottom: 100px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        #btn {
+            max-width: 400px;
+            font-size: 2rem;
+            border-width: 5px;
+            border-radius: 4px;
+            background-color: transparent;
+            backdrop-filter: brightness(0.6);
+            color: #b1a8a8;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Welcome to gitOrgPractice</h1>
+
+    <div class="container">
+        <button id="btn">change</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
